@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 3% 0 3%;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.commonText {
+  font-size: 18px;
+  font-weight: lighter;
+  /* font-family: inter; */
+}
+.buttonProp {
+  color: white;
+  background-color: black;
+  padding: 2px 4px 1px 4px;
+}
