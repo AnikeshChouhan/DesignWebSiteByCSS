@@ -23,20 +23,25 @@ a,
 ul {
   list-style: none;
   text-decoration: none;
+  color: black;
 }
 
 .flex {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
 }
 
 .commonText {
   font-size: 18px;
-  font-weight: lighter;
-  /* font-family: inter; */
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
 .buttonProp {
   color: white;
   background-color: black;
-  padding: 2px 4px 1px 4px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 13%;
 }
+/* header End */
